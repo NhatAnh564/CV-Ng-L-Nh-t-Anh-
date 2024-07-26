@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Ngô Lê Nhật Anh</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ngô Lê Nhật Anh</h1>
+            <p>Địa chỉ: 12 Lê Thị Kỉnh, Phước Kiển, Nhà Bè, Tp.HCM</p>
+            <p>Điện thoại: 0799242564</p>
+            <p>Email: <a href="mailto:nhatanhngo0506@gmail.com">nhatanhngo0506@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/NhatAnh564" target="_blank">github.com/NhatAnh564</a></p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('objective')">Mục tiêu nghề nghiệp</a></li>
+                <li><a href="#" onclick="showSection('skills')">Kỹ năng</a></li>
+                <li><a href="#" onclick="showSection('education')">Học vấn</a></li>
+                <li><a href="#" onclick="showSection('projects')">Dự án</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="objective" class="section">
+                <h2>Mục tiêu nghề nghiệp</h2>
+                <p>Tôi đang tìm kiếm một vị trí kỹ sư phần mềm tại một công ty công nghệ hàng đầu, nơi tôi có thể vận dụng và phát triển các kỹ năng của mình về lập trình, quản lý dự án và làm việc nhóm để đóng góp vào sự phát triển của công ty. Tôi mong muốn được làm việc trong một môi trường năng động, sáng tạo và đầy thách thức, nơi tôi có thể:</p>
+                <ul>
+                    <li>Phát triển Kỹ năng Lập trình: Sử dụng kiến thức về các ngôn ngữ lập trình như Java, Python, và JavaScript để thiết kế, phát triển và tối ưu hóa các ứng dụng phần mềm chất lượng cao. Luôn học hỏi và cập nhật các công nghệ mới để nâng cao hiệu quả công việc.</li>
+                    <li>Quản lý Dự án: Áp dụng các phương pháp quản lý dự án hiện đại như Agile và Scrum để đảm bảo dự án hoàn thành đúng tiến độ, đạt chất lượng cao và tối ưu hóa nguồn lực. Tham gia vào toàn bộ quy trình phát triển phần mềm từ giai đoạn lập kế hoạch, thiết kế, phát triển, kiểm thử đến triển khai và bảo trì.</li>
+                    <li>Làm việc Nhóm: Hợp tác hiệu quả với các thành viên trong nhóm và các bộ phận khác để giải quyết các vấn đề kỹ thuật, đưa ra các giải pháp sáng tạo và cải tiến liên tục. Phát triển kỹ năng giao tiếp và lãnh đạo để thúc đẩy tinh thần đồng đội và hiệu suất làm việc của nhóm.</li>
+                    <li>Đóng góp vào Sự Thành Công của Công ty: Đóng góp tích cực vào các dự án và mục tiêu chung của công ty, đề xuất các cải tiến về quy trình và công nghệ, hỗ trợ các hoạt động phát triển kinh doanh. Thúc đẩy sự đổi mới và áp dụng các giải pháp công nghệ tiên tiến để nâng cao giá trị sản phẩm và dịch vụ của công ty.</li>
+                    <li>Phát triển Bản thân: Theo đuổi các khóa học, chứng chỉ và các cơ hội đào tạo để không ngừng nâng cao kiến thức và kỹ năng. Tham gia các cộng đồng công nghệ, hội thảo và sự kiện để mở rộng mạng lưới và cập nhật xu hướng mới trong ngành công nghệ thông tin.</li>
+                </ul>
+            </div>
+            <div id="skills" class="section" style="display:none;">
+                <h2>Kỹ năng</h2>
+                <ul>
+                    <li>Ngôn ngữ lập trình: Java, Python, C++, JavaScript</li>
+                    <li>Phát triển web: HTML, CSS, React, Node.js</li>
+                    <li>Cơ sở dữ liệu: MySQL, PostgreSQL</li>
+                    <li>Công cụ: Git, Docker, Jenkins</li>
+                    <li>Kỹ năng mềm: Giải quyết vấn đề, làm việc nhóm, quản lý thời gian</li>
+                </ul>
+            </div>
+            <div id="education" class="section" style="display:none;">
+                <h2>Học vấn</h2>
+                <p>Đại học Viện Quốc Tế NIIE</p>
+                <p>Điểm trung bình: 3.5/4.0</p>
+                <p>Chuyên ngành: Kỹ Sư Phần Mềm</p>
+                <p>Thời gian học: 2022 – 2026</p>
+                <p>Bằng cấp đạt được: Cử nhân kỹ sư phần mềm</p>
+            </div>
+            <div id="projects" class="section" style="display:none;">
+                <h2>Dự án nổi bật</h2>
+                <div class="project">
+                    <h3>Hệ thống Quản lý Khách hàng (CRM)</h3>
+                    <p>Mô tả: Phát triển ứng dụng CRM cho công ty XYZ, giúp theo dõi và quản lý thông tin khách hàng, bán hàng và dịch vụ khách hàng.</p>
+                    <p>Công nghệ sử dụng: React, Node.js, MongoDB</p>
+                    <p>Vai trò: Kỹ sư chính, phụ trách thiết kế kiến trúc hệ thống và phát triển các tính năng chính.</p>
+                </div>
+                <div class="project">
+                    <h3>Ứng dụng E-commerce</h3>
+                    <p>Mô tả: Xây dựng ứng dụng thương mại điện tử cho công ty ABC, cung cấp các tính năng mua sắm trực tuyến và thanh toán.</p>
+                    <p>Công nghệ sử dụng: Java, Python, C++, JavaScript</p>
+                    <p>Vai trò: Phát triển backend, tích hợp các API thanh toán và quản lý cơ sở dữ liệu.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
